@@ -3,6 +3,7 @@
 
 <template>
   <div class="box" m-t-10>
+    <Logos />
     <div>
       <p>Theme Switch</p>
       <Theme inline />
