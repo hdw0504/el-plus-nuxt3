@@ -16,8 +16,8 @@ export default defineNuxtConfig({
 
   css: [
     '@unocss/reset/tailwind.css',
-    'element-plus/dist/index.css',
-    'element-plus/theme-chalk/dark/css-vars.css',
+    'element-plus/dist/index.css', // full import (autoimport has some error)
+    'element-plus/theme-chalk/dark/css-vars.css', // dark mode
     '~/assets/style/index.scss', // global css
   ],
 
@@ -46,6 +46,8 @@ export default defineNuxtConfig({
         resolvers: [
           // autoimport Feedback component like message and notification
           ElementPlusResolver({
+            // ssr: true,
+            // importStyle: 'sass',
             importStyle: false,
           }),
         ],
@@ -56,7 +58,8 @@ export default defineNuxtConfig({
           // autoimport component and css
           ElementPlusResolver({
             // if turn ssr true will full Import when build project
-            // ssr: false,
+            // ssr: true,
+            // importStyle: 'sass',
             importStyle: false,
           }),
           IconsResolver({
