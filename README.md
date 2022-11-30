@@ -1,7 +1,7 @@
 # nuxt3 + element plus 模板
 
 ### 在线预览/仓库地址
-link: https://element-plus-nuxt3.netlify.app\
+link: https://element-plus-nuxt3.netlify.app <br>
 github: https://github.com/hdw0504/el-plus-nuxt3\
 
 ### 其余模板
