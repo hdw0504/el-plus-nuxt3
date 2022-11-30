@@ -12,6 +12,7 @@ specifiers:
   element-plus: ^2.2.25
   eslint: ^8.28.0
   nuxt: ^3.0.0
+  pinia: ^2.0.27
   sass: ^1.56.1
   typescript: ^4.9.3
   unplugin-auto-import: ^0.12.0
@@ -31,6 +32,7 @@ devDependencies:
   element-plus: 2.2.25
   eslint: 8.28.0
   nuxt: 3.0.0_il4nynbegyshnpve3y3r4aihba
+  pinia: 2.0.27_typescript@4.9.3
   sass: 1.56.1
   typescript: 4.9.3
   unplugin-auto-import: 0.12.0

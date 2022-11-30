@@ -14,6 +14,11 @@ export default defineNuxtConfig({
     'unplugin-icons/nuxt',
   ],
 
+  imports: {
+    // Auto-import pinia stores defined in `~/stores`
+    dirs: ['stores'],
+  },
+
   css: [
     '@unocss/reset/tailwind.css',
     'element-plus/dist/index.css', // full import (autoimport has some error)
