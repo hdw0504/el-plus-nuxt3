@@ -3,5 +3,15 @@ $--colors: (
   // "primary": (
   //   "base": red,
   // ),
+  // 'success': (
+  //   'base': orange,
+  // ),
+  // 'warning': (
+  //   'base': red,
+  // ),
 );
-@forward "element-plus/theme-chalk/src/dark/var.scss" with ($colors: $--colors);
+@forward "element-plus/theme-chalk/src/dark/var.scss" with (
+  $colors: $--colors
+);
+
+// @debug $--colors;

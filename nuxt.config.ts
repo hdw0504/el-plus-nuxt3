@@ -21,8 +21,8 @@ export default defineNuxtConfig({
 
   css: [
     '@unocss/reset/tailwind.css',
-    'element-plus/dist/index.css', // full import (autoimport has some error)
-    'element-plus/theme-chalk/dark/css-vars.css', // dark mode
+    'element-plus/theme-chalk/src/index.scss', // full import (autoimport has some error)
+    'element-plus/theme-chalk/src/dark/css-vars.scss', // dark mode
     '~/assets/style/index.scss', // global css
   ],
 
@@ -46,6 +46,14 @@ export default defineNuxtConfig({
   },
 
   vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          // 主题定制方案 (not as *)
+          additionalData: '@use "@/assets/style/element/index.scss";',
+        },
+      },
+    },
     plugins: [
       AutoImport({
         resolvers: [
