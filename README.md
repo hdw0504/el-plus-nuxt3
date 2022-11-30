@@ -2,11 +2,11 @@
 
 ### 在线预览/仓库地址
 link: https://element-plus-nuxt3.netlify.app <br>
-github: https://github.com/hdw0504/el-plus-nuxt3\
+github: https://github.com/hdw0504/el-plus-nuxt3
 
 ### 其余模板
 Vue 3.2 + Element-Plus 管理系统\
-link: https://v3-admin.netlify.app\
+link: https://v3-admin.netlify.app <br>
 github: https://github.com/hdw0504/v3-admin\
 
 ### 项目前身今世
