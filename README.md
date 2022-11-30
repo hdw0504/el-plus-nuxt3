@@ -19,7 +19,7 @@ github: https://github.com/hdw0504/v3-admin\
 - **Nuxt 3.0**
   - Nuxt3正式版
 - **Element-Plus**
-  - 自动引入组件，支持暗黑模式，全局引入样式（按需加载有bug等官方修复）
+  - 自动引入组件，支持暗黑模式，支持主题定制，目前只能全局引入样式（按需加载有bug等官方修复）
 - **Pinia**
   - 使用 `setup store` 抛弃厚重的 ~~vuex~~ 写法 (拜拜了 `mutation`)
 - **vueuse**
@@ -34,7 +34,7 @@ github: https://github.com/hdw0504/v3-admin\
 <img src="./public/image/build-size.jpg" />
 
 ### TODO:
-- 等问题修复完毕后支持主题定制和按需加载样式
+- 等问题修复完毕后改为按需加载样式
 
 
 ### 发布
