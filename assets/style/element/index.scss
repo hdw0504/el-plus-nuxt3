@@ -1,0 +1,37 @@
+$--colors: (
+  // 'white': #ffffff,
+  // 'black': #000000,
+  // 'primary': (
+  //   'base': green,
+  // ),
+  // 'success': (
+  //   'base': #67c23a,
+  // ),
+  // 'warning': (
+  //   'base': #e6a23c,
+  // ),
+  // 'danger': (
+  //   'base': #f56c6c,
+  // ),
+  // 'error': (
+  //   'base': #f56c6c,
+  // ),
+  // 'info': (
+  //   'base': #909399,
+  // ),
+);
+
+// You should use them in scss, because we calculate it by sass.
+// comment next lines to use default color
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  // do not use same name, it will override.
+  $colors: $--colors
+);
+
+// custom dark variables
+@use "./dark.scss" as *;
+
+// You can comment it to hide debug info.
+// @debug $--colors;
+
+

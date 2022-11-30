@@ -1,0 +1,15 @@
+// Custom namespace has some problem
+// @use 'element-plus/theme-chalk/src/dark/css-vars.scss';
+// @use './element/index.scss';
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+}
+
+html.dark {
+  background: #222;
+  color: white;
+}

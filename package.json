@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "packageManager": "pnpm@7.14.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "start": "npm run build && npm run preview",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "analyze": "nuxi analyze",
+    "lint": "eslint .",
+    "up": "taze major -I"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.31.0",
+    "@iconify-json/carbon": "^1.1.11",
+    "@iconify-json/ep": "^1.1.8",
+    "@iconify-json/twemoji": "^1.1.6",
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@pinia/nuxt": "^0.4.6",
+    "@unocss/nuxt": "^0.46.5",
+    "@vueuse/nuxt": "^9.6.0",
+    "element-plus": "^2.2.25",
+    "eslint": "^8.28.0",
+    "nuxt": "^3.0.0",
+    "sass": "^1.56.1",
+    "typescript": "^4.9.3",
+    "unplugin-auto-import": "^0.12.0",
+    "unplugin-icons": "^0.14.14",
+    "unplugin-vue-components": "^0.22.11",
+    "vite": "^3.2.4"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "vue",
+        "webpack"
+      ]
+    }
+  }
+}
