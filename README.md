@@ -1,13 +1,13 @@
 # nuxt3 + element plus 模板
 
 ### 在线预览/仓库地址
-link: https://element-plus-nuxt3.netlify.app
-github: https://github.com/hdw0504/el-plus-nuxt3
+link: https://element-plus-nuxt3.netlify.app\
+github: https://github.com/hdw0504/el-plus-nuxt3\
 
 ### 其余模板
-Vue 3.2 + Element-Plus 管理系统
-link: https://v3-admin.netlify.app
-github: https://github.com/hdw0504/v3-admin
+Vue 3.2 + Element-Plus 管理系统\
+link: https://v3-admin.netlify.app\
+github: https://github.com/hdw0504/v3-admin\
 
 ### 项目前身今世
 基于 [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3)\
